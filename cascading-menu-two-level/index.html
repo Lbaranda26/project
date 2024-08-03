@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Cascading Menu Two Level</title>
+        <meta name="description" content="Cascading Menu Two Level">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <p>Cascading Menu Two Level</p>
+                <button class="toggle_menu">&#9776;</button>
+                
+                <nav class="nav">
+                    <button class="toggle_menu_close">x</button>
+                    <ul class="firstlevel__ul">
+                        <li>
+                            <a class="firstlevel__a firstlevel__a_dropdown">Home <span class="firstlevel__symbol">+</span></a>
+                            <ul class="secondlevel__ul hide">
+                                <li><a href="#">Home 1</a></li>
+                                <li><a href="#">Home 2</a></li>
+                                <li><a href="#">Home 3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="firstlevel__a">Works</a></li>
+                        <li><a href="#" class="firstlevel__a">Services</a></li>
+                        <li><a href="#" class="firstlevel__a">About</a></li>
+                        <li>
+                            <a class="firstlevel__a firstlevel__a_dropdown">Contact <span class="firstlevel__symbol">+</span></a>
+                            <ul class="secondlevel__ul hide">
+                                <li><a href="#">Contact 1</a></li>
+                                <li><a href="#">Contact 2</a></li>
+                                <li><a href="#">Contact Contact Contact 3</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <main class="main">
+                <h1>Hello World!</h1>
+            </main>
+        </div> 
+        <script src="script.js" async defer></script>
+    </body>
+</html>
