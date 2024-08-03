@@ -104,8 +104,9 @@ nav{
 main{
     width: 100%;
     min-height: 80vh;
-    display: grid;
-    place-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 main > h1{
     font-size: 5rem;
