@@ -1,0 +1,35 @@
+/*
+LOGIC
+1. DISPLAY FLEX
+2. SET THE CHILD FLEX-BASIS TO 5% (OR WHAT IS YOUR PREFERENCES)
+3. SET THE SELECTED CHILD FLEX-BASIS TO 100% TO HOVER OR ONCLICK
+*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+ul{
+    display: flex;
+    height: 100vh;
+}
+li{
+    flex-basis: 20%;
+    list-style: none;
+    border-left:1px solid black;
+    border-right:1px solid black;
+    cursor: pointer;
+    transition: flex-basis 1s;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
